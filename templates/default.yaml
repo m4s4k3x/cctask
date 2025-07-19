@@ -1,0 +1,35 @@
+# デフォルトタスクテンプレート
+name: default
+description: 標準的なタスクテンプレート
+
+# タスクのデフォルト設定
+defaults:
+  priority: medium
+  status: in_progress
+
+# 概要テンプレート
+description_template: |
+  ## 背景
+  [なぜこのタスクが必要なのか]
+  
+  ## 実装内容
+  [具体的に何を実装するか]
+
+# 目的テンプレート
+purpose_template: |
+  [このタスクで達成したい最終的なゴール]
+
+# 成功条件テンプレート
+success_conditions:
+  - "機能が正しく動作する"
+  - "テストが通る"
+  - "ドキュメントが更新される"
+
+# TODOテンプレート
+todo_items:
+  - "要件の確認"
+  - "設計"
+  - "実装"
+  - "テスト作成"
+  - "動作確認"
+  - "ドキュメント更新"

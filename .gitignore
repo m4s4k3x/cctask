@@ -1,0 +1,33 @@
+# Deno
+.DS_Store
+.vscode/
+.idea/
+*.orig
+*.swp
+*.swo
+*~
+.env
+.env.local
+
+# Compiled binary
+cctask
+
+# Test coverage
+coverage/
+cov_profile
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory
+.Trash-*
